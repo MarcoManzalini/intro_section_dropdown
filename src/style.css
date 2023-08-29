@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root{
+    --color-almostWhite: 0deg 0% 98%;
+    --color-mediumGray: 0deg 0% 41%;
+    --color-almostBlack: 0deg 0% 8%;
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+  }
+}
+body{
+  background-color: hsl(0deg 0% 98%);
+}
